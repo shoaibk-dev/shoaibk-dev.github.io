@@ -1,0 +1,151 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:600,600i');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i');
+
+
+body {
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .header, .next-post {
+  font-weight: 600;
+  font-family: 'Zilla Slab', Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.container, .header {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.0;
+}
+
+.header .title {
+  display: block;
+  font-size: 18px;
+  color: #333;
+}
+
+.header .subtitle {
+  font-weight: normal;
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.nav a {
+  opacity: 0.7;
+  margin-left: 20px;
+}
+
+.nav a.active, .nav a:hover {
+  opacity: 1;
+}
+
+.content {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.content a:hover {
+  border-bottom: 1px solid;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.prettyprint.highlight {
+  background: #fafafb;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #666;
+}
+
+.content h3 {
+  font-size: 18px;
+}
+
+.related, .comment, .next-post {
+  border-top: 1px solid #eee;
+}
+
+.related h2 {
+  text-align: center;
+  color: #999;
+}
+
+ul.posts {
+  padding: 0;
+}
+
+ul.posts li {
+  text-align: left;
+  list-style-type: none;
+}
+
+.post-date {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: #999;
+}
+
+.comment, .next-post {
+  color: #999;
+  padding: 20px 0;
+}
+
+.next-post {
+  font-size: 20px;
+}
+
+.meta {
+  text-align: center;
+  margin: 10px 0;
+  color: #999;
+}
+
+.pull-right {
+  float: right;
+}

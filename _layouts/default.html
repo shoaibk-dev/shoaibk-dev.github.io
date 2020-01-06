@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="header">
+    <a class="title" href="/">
+      Shoaib Khan
+      <div class="subtitle">Thought's wave, code and reflection..</div>
+    </a>
+    <div class="nav">
+      <a {% if page.active == 'home' %}class="active"{% endif %} href="/">Blog</a>
+      <a {% if page.active == 'archive' or page.active == nil %}class="active"{% endif %} href="/archive.html">Archive</a>
+      <a {% if page.active == 'about' %}class="active"{% endif %} href="/about.html">About</a>
+      <a href="/atom.xml">Feed</a>
+    </div>
+  </div>
+  <div class="container">  
+    {{ content }}
+  </div>
+  <script type="text/javascript">
+    [].forEach.call(document.getElementsByTagName("pre"), function (el) {
+      el.classList.add("prettyprint");
+    });
+    PR.prettyPrint();	
+  </script>
+</body>
+</html>
