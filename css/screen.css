@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600,800');
 
 body {
-  font-family: 'Lato', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 16px;
-  color: #444;
+  font-family: "Roboto Slab";
+  font-size: 22px;
+  font-weight: 300;
+  color: #3d455c;
   line-height: 1.7;
   font-kerning: normal;
   text-rendering: optimizeLegibility;
