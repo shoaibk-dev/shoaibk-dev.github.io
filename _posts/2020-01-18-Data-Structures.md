@@ -16,8 +16,11 @@ Recursion
 DP - pronblem that depends on past results, like storing ur results from previous iterations and using them in future iterations instead of having to recompute
 
 sorting & searching
+
 ad hoc
+
 linked list  given a linked list check if its a palindrome or not [tacocat]
+
 competitive prog  
 
 hashmap & hashset 
