@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I Am A Muslim
+title: What I Strive For..
 ---
 
 I sanctify Justice, glorify freedom, honour the human being, demonstrate gentleness with the weak, and remind the powerful of the One more powerful than them.
